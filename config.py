@@ -14,7 +14,7 @@ class Config:
     
     def __init__(self):
         # Bot configuration
-        self.bot_token = os.getenv("BOT_TOKEN")
+        self.bot_token = os.getenv("8435159197:AAEjiiGpPdpmtDR9dasKWbTDHHJkk4gXZUA")
         if not self.bot_token:
             raise ValueError("BOT_TOKEN environment variable is required")
         
